@@ -12,4 +12,4 @@ Reddit-Sage aims to bridge the gap where modern LLMs might fall short, particula
 
 
 
-### Disclaimer - The application might give biased result based on reddit users insight. 
+### Disclaimer - The application might be subjected to biased results
