@@ -37,7 +37,7 @@ def on_chat_start():
         model_name='sentence-transformers/all-mpnet-base-v2')
     repo_id = 'mistralai/Mixtral-8x7B-Instruct-v0.1'
     llm = HuggingFaceEndpoint(
-        repo_id=repo_id, max_length=4096, temperature=0.3)
+        repo_id=repo_id, max_length=4096, temperature=0.2)
 
     message_history = ChatMessageHistory()
     memory = ConversationBufferMemory(
